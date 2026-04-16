@@ -1,0 +1,19 @@
+# === Luna-Vortex V2: Build & Privacy Exclusions ===
+
+# Compiled Code
+__pycache__/
+*.pyc
+build/
+dist/
+*.exe
+
+# Private Assets (DANGER)
+tokens.txt
+proxies.txt
+config.yaml
+/data/logs/
+/hits/
+
+# OS Files
+Thumbs.db
+.DS_Store
